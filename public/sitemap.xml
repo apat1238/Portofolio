@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Halaman Utama -->
+  <url>
+    <loc>https://portofolioarapat.netlify.app/</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Role Detail: IT Supervisor - PT. Universal Support Mining -->
+  <url>
+    <loc>https://portofolioarapat.netlify.app/role/it-supervisor-usm</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Role Detail: IT Support - PT. Thriveni Mining Group -->
+  <url>
+    <loc>https://portofolioarapat.netlify.app/role/it-support-thriveni</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Role Detail: IT Supervisor - PT Bangun Rimba Sejahtera -->
+  <url>
+    <loc>https://portofolioarapat.netlify.app/role/it-supervisor-brs</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
+

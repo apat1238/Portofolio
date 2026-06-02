@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Menghindari crawling error pada aset tertentu
+Disallow: /cdn-cgi/
+
+Sitemap: https://portofolioarapat.netlify.app/sitemap.xml
