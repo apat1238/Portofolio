@@ -217,6 +217,19 @@ export const projects = [
     badgeColor: 'bg-emerald-500/20 text-emerald-300',
     year: '2023',
   },
+  {
+    title: 'Smart Absensi',
+    subtitle: 'Employee Attendance Management System',
+    description:
+      'Project Overview\nSmart Absensi adalah aplikasi manajemen kehadiran karyawan berbasis web dan mobile yang dirancang untuk membantu perusahaan memantau absensi secara real-time. Sistem mendukung berbagai metode check-in seperti QR Code, PIN, GPS Location, dan Fingerprint, lengkap dengan fitur manajemen shift, laporan kehadiran, izin/cuti, koreksi absensi, serta integrasi API untuk kebutuhan HR dan payroll.\n\nMy Role\n• Full Stack Web Developer\n• UI/UX Designer\n• Database Design & System Architecture\n• REST API Development\n• Deployment & Server Configuration\n\nKey Features\n• Employee Attendance Tracking\n• GPS & Geofencing Validation\n• QR Code & PIN Check-In\n• Shift Management System\n• Leave & Permission Requests\n• Attendance Correction Workflow\n• Analytics & Reporting Dashboard\n• Excel Export & Payroll Integration\n• REST API & Webhook Integration\n• Responsive Web Application\n\nTechnologies\nPHP / Laravel, MySQL, JavaScript, Bootstrap / Tailwind CSS, REST API, Git & GitHub, Linux Server Deployment\n\nProject Impact\nMembantu perusahaan melakukan digitalisasi proses absensi, mengurangi pencatatan manual, meningkatkan akurasi data kehadiran, serta mempercepat proses rekapitulasi untuk kebutuhan HR dan payroll.',
+    icon: 'Smartphone',
+    color: 'from-orange-600 to-red-600',
+    tags: ['PHP', 'Laravel', 'MySQL', 'JavaScript', 'Bootstrap', 'REST API', 'Tailwind CSS', 'Git', 'Linux'],
+    link: 'https://smartabsensi.xyz/',
+    badge: 'Active',
+    badgeColor: 'bg-orange-500/20 text-orange-300',
+    year: '2024',
+  },
 ]
 
 export const miniProjects = [

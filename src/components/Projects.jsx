@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion'
-import { ExternalLink, Scale, BarChart3, Network, Camera, Code2, Calendar } from 'lucide-react'
+import { ExternalLink, Scale, BarChart3, Network, Camera, Code2, Calendar, Smartphone } from 'lucide-react'
 import { projects, miniProjects } from '../data/portfolio'
 
-const iconMap = { Scale, BarChart3, Network, Camera, Code2 }
+const iconMap = { Scale, BarChart3, Network, Camera, Code2, Smartphone }
 
 export default function Projects() {
   return (
@@ -59,7 +59,7 @@ export default function Projects() {
                       {!proj.noLink && <ExternalLink size={13} className="text-zinc-600 group-hover:text-indigo-400 transition-colors" />}
                     </div>
                   </div>
-                  <p className="text-sm text-zinc-400 leading-relaxed mb-4">{proj.description}</p>
+                  <p className="text-sm text-zinc-400 leading-relaxed mb-4 whitespace-pre-wrap">{proj.description}</p>
                   <div className="flex flex-wrap gap-1.5">
                     {proj.tags.map(t => (
                       <span key={t} className="text-[11px] px-2 py-0.5 rounded-md bg-white/[0.04] border border-white/[0.06] text-zinc-500">{t}</span>
